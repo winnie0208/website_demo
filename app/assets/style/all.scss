@@ -1,0 +1,37 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+//base
+@import "./base/_base.scss";
+@import "./base/_font.scss";
+
+//components
+@import "./components/_font-style.scss";
+@import "./components/_icon-size.scss";
+@import "./components/_card-style.scss";
+@import "./components/_btn-style.scss";
+@import "./components/_list-style.scss";
+@import "./components/_hero.scss";
+@import "./components/_book-card.scss";
+@import "./components/_intro-image.scss";
+@import "./components/_inputInfo-style.scss";
+@import "./components/_modal-style.scss";
+
+
+//helper
+@import "./helpers/_helper.scss";
+
+//layout
+@import "./layout/_header.scss";
+@import "./layout/_footer.scss";
+
+//pages
+@import "./pages/_index.scss";
+@import "./pages/_room.scss";
+@import "./pages/_service.scss";
+@import "./pages/_scene.scss";
+@import "./pages/_contact.scss";
+@import "./pages/_faq.scss";
+@import "./pages/_book.scss";
+

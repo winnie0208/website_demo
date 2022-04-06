@@ -1,0 +1,16 @@
+.x-modal .modal-header{
+    padding: 16px 24px;
+    border-bottom-width: 0;
+}
+.x-modal .modal-body{
+    padding-top: 0;
+}
+.none-x-modal button{
+    border-top-left-radius:0 ;
+    border-top-right-radius:0 ;
+    border-top: 1px solid rgba($light, 1);
+}
+.none-x-modal button:hover{
+    color: $primary;
+    background: $light;
+}

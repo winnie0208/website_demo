@@ -1,0 +1,84 @@
+.hero-with-slogan{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 208px;
+    padding-bottom:245px ;
+}
+.hero{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+.hero-intro .carousel-indicators button{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+.banner-coverd{
+    background-image: url(../images/banner-coverd.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%,auto;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.banner-intro-coverd{
+    background-image: url(../images/banner-intro-coverd.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%,auto;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.slogan{
+    color: $white;
+    font-size: $font-size-base * 2.25;//36
+    line-height: 1.125;//48
+    text-shadow: 2px 2px 5px rgba($black, 0.5);
+    margin-left:16px ;
+}
+.slogan span{
+    font-size:  $font-size-base * 1.125;//18
+}
+@media(min-width:576px){
+    .hero-with-slogan{
+        padding-top: 88px;
+        padding-bottom: 123px;
+    }
+    .hero{
+        height: 240px;
+    }
+}
+@media(min-width:768px){
+    .hero-with-slogan{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .hero{
+        height: 300px;
+    }
+    .banner-coverd{
+        background-image: url(../images/banner-coverd-lg.png);
+    }
+    .slogan{
+        font-size:$font-size-base * 3 ;//48
+        line-height: $line-height-sm;//60  
+    }
+    .slogan span{
+        font-size: $font-size-base * 1.5;//24px
+    }
+}
+@media(min-width:992px){
+    .hero-with-slogan{
+        padding: 200px 60px 200px 60px;
+    }
+}

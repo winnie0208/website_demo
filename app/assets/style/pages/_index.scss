@@ -1,0 +1,55 @@
+//Hero
+.index-banner{
+    background-image: url(../images/banner-1.jpg);
+}
+//About
+.service-feature-image{
+    width: 250px;
+    height: 250px;
+}
+@media(min-width:768px){
+    .service-feature-image{
+        width: 200px;
+        height: 200px;
+    }
+}
+//Comment
+.comment{
+    background-image: url(../images/comment/comment-bg-576.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100px;
+}
+@media(min-width:576px){
+    .comment{
+        background-image: url(../images/comment/comment-bg-768.png);
+    }
+}
+@media(min-width:768px){
+    .comment{
+        background-image: url(../images/comment/comment-bg-992.png);
+    }
+}
+@media(min-width:992px){
+    .comment{
+        background-image: url(../images/comment/comment-bg-1280.png);
+        
+    }
+}
+@media(min-width:1280px){
+    .comment{
+        background-image: url(../images/comment/comment-bg-1920.png);
+        
+    }
+}
+.comment-text{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}

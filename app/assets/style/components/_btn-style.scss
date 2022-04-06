@@ -1,0 +1,13 @@
+.text-btn{
+    font-weight: 400;
+    transition: all 0.3s;
+}
+.text-btn:hover{
+    color: $primary;
+}
+.text-btn:hover p{
+    color:  $primary;;
+}
+.text-btn-up:hover{
+    transform: translateY(-8px);
+}

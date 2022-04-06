@@ -1,0 +1,88 @@
+---
+title: 海民民宿-聯絡海民
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="container-sm pt-10 py-15">
+    <div class="title mb-8">
+        <h2>聯絡海民</h2>
+    </div>
+    <div class="row mb-10">
+        <div class="col-12 col-sm-7 col-md-7 mb-5 mb-sm-0">
+            <p class="text-justify">無論是對住宿上有任何問題，或者是合作提案，皆歡迎您隨時與我們聯繫，海民皆期待為您服務的機會。</p>
+        </div>
+        <div class="col-12 col-sm-5 col-md-5">
+            <ul class="d-flex flex-column">
+                <li class="text-primary text-sm-end mb-2">+886-3-5361-661</li>
+                <li class="text-primary text-sm-end mb-2">hotelbs@gmail.com</li>
+                <li class="text-primary text-sm-end ">新竹市北區海濱路二段36號</li>
+            </ul>
+        </div>
+    </div>
+    <div class="card px-1 pt-4 pb-6 mb-10 mb-sm-15">
+        <div class="d-flex flex-column align-items-center">
+            <div class="row mb-5 w-100">
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="contact">
+                        <label for="contact">聯絡人</label>
+                        <input type="text" name="contact" id="contact" placeholder="請填寫聯絡人姓名">
+                      </div>
+                      <div class="tel">
+                        <label for="tel">聯絡電話</label>
+                        <input type="tel" name="tel" id="tel" placeholder="請填寫可聯絡電話">
+                      </div>
+                      <div class="mail">
+                        <label for="mail">電子信箱</label>
+                        <input type="email" name="mail" id="mail" placeholder="請填寫電子信箱，將會盡快回覆信件">
+                      </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="message">
+                        <label for="message">訊息</label>
+                        <textarea name="message" id="message" placeholder="請留下想對我們說的訊息，我們將會盡快回覆" class="message-box"></textarea>
+                      </div>
+                </div>
+                
+            </div>
+            <div class="check-box justify-content-center align-items-center">
+                <input type="checkbox" name="ckecked" id="checked">
+                <label for="checked">我不是機器人。</label>
+            </div>
+            <input type="submit" class="btn btn-primary w-auto px-20 py-3a" value="送出" data-bs-toggle="modal" data-bs-target="#contact-done">
+        </div>
+        
+    </div>
+    <div class="row mb-10">
+        <div class="traffic col-12 col-md-6 mb-5 mb-md-0">
+            <div class="traffic-icon">
+                <img src="./assets/images/contact/icon-car.svg" alt="drive" class="icon-50">
+                <p class="fs-lg text-primary text-center">開車</p>
+            </div>
+            <p>從西濱東西向50公里，往漁港交流道下，開始10公里後即到附近。</p>
+        </div>
+        <div class="traffic col-12 col-md-6">
+            <div class="traffic-icon">
+                <img src="./assets/images/contact/icon-bus.svg" alt="dbus" class="icon-50">
+                <p class="fs-lg text-primary text-center">公車</p>
+            </div>
+            <p>從新竹火車站下車後，到光南對面搭乘藍15線到南寮漁港站下車，走路約5分鐘即到。</p>   
+        </div>
+        
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7240.761327193699!2d120.9273849033873!3d24.85084522820426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346834ee10e31017%3A0x73ff9af3c8edd6f1!2z5Y2X5a-u5ryB5riv!5e0!3m2!1szh-TW!2stw!4v1631696320070!5m2!1szh-TW!2stw" allowfullscreen="" loading="lazy" class="map-hotel"></iframe>
+    
+</div>
+<!-- Modal -->
+<div class="modal fade" id="contact-done" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="none-x-modal modal-dialog modal-dialog-centered modal-dialog-scrollable w-75 mx-auto">
+      <div class="modal-content">
+        <div class="modal-body">
+            <p class="text-justify">
+                已收到您的留言，海民會進快回覆您的訊息，請耐心等候，謝謝。
+            </p>
+        </div>
+        <button type="button" class="btn btn-white py-4" data-bs-dismiss="modal">了解</button>
+      </div>
+    </div>
+  </div>
